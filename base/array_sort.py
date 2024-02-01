@@ -6,6 +6,7 @@
 # @Software: PyCharm
 
 n = int(input())  # 输入n
+
 array_input = input()  # 以字符串形式接受n个数字包括了间隔的空格
 array = [int(num) for num in array_input.split()]  # 以空格拆分字符串，存入列表
 
