@@ -10,7 +10,7 @@ def special_palindrome(n):
     for i in range(10000, 1000000):
         num_str = str(i)
         if num_str == num_str[::-1]:  # 判断字符串与其反转字符串是否一致
-            sum = 0
+            sum = 0  # 用于求每个数字的和
             for char in num_str:
                 sum += int(char)
             if sum == n:
