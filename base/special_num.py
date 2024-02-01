@@ -14,7 +14,7 @@ def daffodil_num():
             sum += int(char) ** 3  # 每个数字的三次方和
         else:
             if sum == i:
-                print(i)
+                print(i)  # 打印水仙花数
 
 
 if __name__ == "__main__":
