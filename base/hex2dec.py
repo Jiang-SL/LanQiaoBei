@@ -7,5 +7,4 @@
 # @Software: PyCharm
 
 hex = int(input(), 16)  # 以16进制输入一个数
-
 print(hex)  # 十进制输出
