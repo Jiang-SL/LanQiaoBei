@@ -6,5 +6,6 @@
 # @Software: PyCharm
 
 dec_num = int(input())
+
 hex_num = hex(dec_num)[2:].upper()  # 将十进制变为十六进制，同时去掉开头的0x，并将其变为大写字母
 print(hex_num)
