@@ -6,6 +6,7 @@
 # @Software: PyCharm
 
 n = int(input())  # 输入n的值
+
 hex = []  # 用于存放n个十六进制数的列表
 for i in range(n):  # 输入n个十六进制字符串
     hex.append(int(input(), 16))  # 通过int将每个输入的字符串变为十六进制整型
