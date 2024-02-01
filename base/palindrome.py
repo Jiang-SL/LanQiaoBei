@@ -9,7 +9,7 @@ def palindrome():
     for i in range(1000, 10000):
         num_str = str(i)  # 将数字变为字符串
         if num_str == num_str[::-1]:  # 判断数字字符串正反是否一致
-            print(i)
+            print(i)  # 打印回文数
         else:
             continue
 
