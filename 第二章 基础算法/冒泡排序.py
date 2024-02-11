@@ -13,6 +13,7 @@ def bubble_sort(num_array):
                 temp = num_array[j]
                 num_array[j] = num_array[j + 1]
                 num_array[j + 1] = temp
+                # num_array[j],num_array[j+1]=num_array[j+1],num_array[j]  # 可以这样子交换
 
 
 if __name__ == "__main__":
